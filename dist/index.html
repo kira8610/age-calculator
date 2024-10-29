@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Age Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="grid place-content-center text-center text-4xl m-4">
+        <form id="ageForm">
+            <input type="text" placeholder="YYYY-MM-DD" id="birthdateInput" class="border-2 rounded-md p-4 mr-4">
+            <button type="submit" class="border-2 rounded-md p-4 mr-4 font-bold">Get your current age</button>
+        </form><br>
+        <p id="announcement"></p>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
